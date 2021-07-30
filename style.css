@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0px;
   font-family: "poppins", sans-serif;
@@ -180,6 +184,7 @@ h1 {
 }
 
 .grid-images {
+  margin-left: 30px;
   display: -ms-grid;
   display: grid;
   grid-gap: 20px;
@@ -190,7 +195,7 @@ h1 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 100px;
+  margin-top: 50px;
   position: relative;
 }
 
@@ -213,6 +218,40 @@ h1 {
 #food__img:hover img {
   -webkit-transform: scale(1.2, 1.2);
           transform: scale(1.2, 1.2);
+  cursor: pointer;
+}
+
+.video__section {
+  margin-top: 100px;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(white)), url(./videobg.jpg);
+  background: linear-gradient(white, white), url(./videobg.jpg);
+  background-blend-mode: soft-light;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.video__section .video {
+  height: 15rem;
+  width: 25rem;
+  margin: 2rem;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
+}
+
+.video__section .video iframe {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  outline: none;
+  border: none;
   cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
