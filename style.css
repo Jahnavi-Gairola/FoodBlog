@@ -204,8 +204,8 @@ h1 {
 }
 
 #food__img img {
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
+  -webkit-transition: all 3s;
+  transition: all 3s;
 }
 
 #food__img h3 {
@@ -216,8 +216,8 @@ h1 {
 }
 
 #food__img:hover img {
-  -webkit-transform: scale(1.2, 1.2);
-          transform: scale(1.2, 1.2);
+  -webkit-transform: scale(1.2, 1.2) skew(200deg);
+          transform: scale(1.2, 1.2) skew(200deg);
   cursor: pointer;
 }
 

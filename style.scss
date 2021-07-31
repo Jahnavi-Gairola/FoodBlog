@@ -191,7 +191,7 @@ h1{
 
 #food__img img{
     
-    transition: all 0.4s;
+    transition: all 3s;
 }
 
 #food__img h3{
@@ -203,14 +203,14 @@ h1{
 }
 
 #food__img:hover img{
-    transform: scale(1.2,1.2);
+    transform: scale(1.2,1.2) skew(200deg);
     cursor: pointer;
 
 }
 
 .video__section{
     margin-top: 100px;
-    background:linear-gradient(white, white), url(./videobg.jpg);
+    background:linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)), url(./videobg.jpg);
     background-blend-mode: soft-light;
     display: flex;
     justify-content: center;
